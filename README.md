@@ -3,7 +3,7 @@ django-new-app
 
 Shell Script responsável por criar uma nova aplicação django simples.
 
-utilizacao
+Utilizacao
 ===============
 * clone esse repositorio
 * dê permissao de escrita para esse script 
