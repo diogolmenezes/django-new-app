@@ -6,8 +6,10 @@ Shell Script responsável por criar uma nova aplicação django simples.
 utilizacao
 ===============
 * clone esse repositorio
-* dê permissao de escrita para esse script ( chmod +x iniciar-projeto.sh )
-* execute ./iniciar-projeto.sh nomedoprojeto
+* dê permissao de escrita para esse script 
+  * chmod +x iniciar-projeto.sh
+* execute 
+  * ./iniciar-projeto.sh nomedoprojeto
 
 
 Qual sera o resultado
