@@ -16,11 +16,12 @@ Qual sera o resultado
 =====================
 
 * criacao de uma virtualenv com o nome ve + nomedoprojeto
-* projeto django 1.5.1 + aplicacao core
+* instalacao do django na virtualenv
+* criacao projeto django 1.5.1 + aplicacao core
+* criacao do requirementes.txt já incluindo o django 1.5.1
 * criacao e primeiro commit em um repositorio git local
 * conversao do tests.py para um modulo tests
 * conversao do settings.py para um modulo contendo 3 arquivos de configuracao
 * criacao dos diretorios de statics e media
-* criacao do requirementes.txt já incluindo o django 1.5.1
 * criacaro do .gitignore excluindo os arquivos .pyc
 * inicia o servidor e poe a app rodando manage runserver :)
