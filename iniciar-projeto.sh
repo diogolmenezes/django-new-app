@@ -7,9 +7,8 @@ if [ -z $1 ]; then
 fi
 
 #criando e configurando virtual env
-virtualenv --no-site-packages --distribute --unzip-setuptools ve$1
-cd ve$1
-source bin/activate
+mkvirtualenv ve$1
+workon ve$1
 pip install django
 
 #criando e configurando projeto
