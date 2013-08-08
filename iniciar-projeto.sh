@@ -17,7 +17,7 @@ cd $1
 #transformando o settings em modulo
 mkdir settings
 mv settings.py settings/production.py
-touch settings/{__init__.py,stage,development}.py
+touch settings/{__init__,stage,development}.py
 echo "from production import *" > settings/stage.py
 echo "from production import *" > settings/development.py
 echo "import os" > settings/__init__.py
