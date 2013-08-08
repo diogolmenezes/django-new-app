@@ -37,7 +37,7 @@ mv core/tests.py core/tests/simple_test.py
 echo "from .simple_test import *" > core/tests/__init__.py
 
 #criando o arquivo de requirements
-echo "django==1.5.1" > requirements.txt
+pip freeze | grep -i django > requirements.txt
 
 #configurando o repositorio do git
 git init
