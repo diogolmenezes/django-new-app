@@ -1,4 +1,4 @@
-if [ empty $1 ]
+if [ -z $1 ]
 then
    echo -e "\t\aInsira o nome do projeto"
    exit
