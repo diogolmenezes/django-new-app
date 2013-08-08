@@ -1,9 +1,9 @@
 #!/bin/bash
 
-if [ -z $1 ]
-then
-   echo -e "\t\aInsira o nome do projeto"
-   exit
+#valida utilizacao
+if [ -z $1 ]; then
+   echo -e "USO: \t\aInsira o nome do projeto"
+   exit 1
 fi
 
 #criando e configurando virtual env
