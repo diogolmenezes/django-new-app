@@ -23,3 +23,4 @@ Qual sera o resultado
 * criacao dos diretorios de statics e media
 * criacao do requirementes.txt já incluindo o django 1.5.1
 * criacaro do .gitignore excluindo os arquivos .pyc
+* inicia o servidor e poe a app rodando manage runserver :)
