@@ -25,3 +25,9 @@ Qual sera o resultado
 * criacao dos diretorios de statics e media
 * criacaro do .gitignore excluindo os arquivos .pyc
 * inicia o servidor e poe a app rodando manage runserver :)
+
+Me ajude a implementar em versoes futuras :)
+============================================
+* separar em funcoes do shell script
+* detectar se o virtualenv/virtualenvwrapper estao instalados e instalar caso nao estejam
+* dar a possibilidade do usuario colocar nomes de pacotes que quer no venv direto na chamada ./iniciar-projeto.sh meuprojeto -p pacote1 pacote2 pacote3
