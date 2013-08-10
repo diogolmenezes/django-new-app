@@ -3,8 +3,7 @@ DNA (django-new-app)
 
 python script able to create an improved skeleton of a Django application
 
-features
-=====================
+##features
 
 * creates virtualenv or virtualenvwrapper environments
 * install newer django
@@ -15,24 +14,20 @@ features
 * converts the tests.py file to a python module
 * creates media, static and templates{js,css,img} folders
 
-requirements
-===============
+##requirements
+
 * python 2.7+
 * virtualenv or virtualenvwrapper
 
-installation and run
-======================
-* clone esse repositorio
+##installation and run
 
+* clone this repository
 * run on virtualenvwrapper
-  * python dna.py myProject -w
+  * ```python dna.py myProject -w```
 * run on virtual env
-  * python dna.py myProject
+  * ```python dna.py myProject```
+* have fun :)
 
-have fun :)
+##Help me to improve dna
 
-
-
-Help me to improve dna
-=======================
 * include support for others versions of django, passing parameters, something like (python dna.py myProject -w -d1.5.1)
