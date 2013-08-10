@@ -1,33 +1,38 @@
-django-new-app
-==============
+DNA (django-new-app)
+====================
 
-Shell Script responsável por criar uma nova aplicação django simples.
+python script able to create an improved skeleton of a Django application
 
-Utilizacao
-===============
-* clone esse repositorio
-* dê permissao de escrita para esse script 
-  * chmod +x iniciar-projeto.sh
-* execute 
-  * ./iniciar-projeto.sh nomedoprojeto
-
-
-Qual sera o resultado
+features
 =====================
 
-* criacao de uma virtualenv com o nome ve + nomedoprojeto
-* instalacao do django na virtualenv
-* criacao projeto django 1.5.1 + aplicacao core
-* criacao do requirementes.txt já incluindo o django 1.5.1
-* criacao e primeiro commit em um repositorio git local
-* conversao do tests.py para um modulo tests
-* conversao do settings.py para um modulo contendo 3 arquivos de configuracao
-* criacao dos diretorios de statics e media
-* criacaro do .gitignore excluindo os arquivos .pyc
-* inicia o servidor e poe a app rodando manage runserver :)
+* creates virtualenv or virtualenvwrapper environments
+* install newer django
+* creates django project and django application (core)
+* creates requirementes.txt file
+* creates git repository and makes the first commit
+* creates .gitignore file with *.pyc and .DS_STORE
+* converts the tests.py file to a python module
+* creates media, static and templates{js,css,img} folders
 
-Me ajude a implementar em versoes futuras :)
-============================================
-* separar em funcoes do shell script
-* detectar se o virtualenv/virtualenvwrapper estao instalados e instalar caso nao estejam
-* dar a possibilidade do usuario colocar nomes de pacotes que quer no venv direto na chamada ./iniciar-projeto.sh meuprojeto -p pacote1 pacote2 pacote3
+requirements
+===============
+* python 2.7+
+* virtualenv or virtualenvwrapper
+
+installation and run
+======================
+* clone esse repositorio
+
+* run on virtualenvwrapper
+  * python dna.py myProject -w
+* run on virtual env
+  * python dna.py myProject
+
+have fun :)
+
+
+
+Help me to improve dna
+=======================
+* include support for others versions of django, passing parameters, something like (python dna.py myProject -w -d1.5.1)
