@@ -109,5 +109,6 @@ class DjangoNewApp(object):
         else:
             print 'ERROR: You must set the name of project'
 
-dna = DjangoNewApp()
-dna.run()
+if __name__ == '__main__':
+    dna = DjangoNewApp()
+    dna.run()
