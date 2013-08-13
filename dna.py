@@ -54,9 +54,9 @@ class DjangoNewApp(object):
         os.mkdir('%s/media' % self.project_dir)
         os.mkdir('%s/static' % self.project_dir)
         os.mkdir('%s/core/template' % self.project_dir)
-        os.mkdir('%s/core/template/css' % self.project_dir)
-        os.mkdir('%s/core/template/img' % self.project_dir)
-        os.mkdir('%s/core/template/js' % self.project_dir)
+        os.mkdir('%s/core/static/css' % self.project_dir)
+        os.mkdir('%s/core/static/img' % self.project_dir)
+        os.mkdir('%s/core/static/js' % self.project_dir)
 
     def create_requirements(self):
         print 'creating requirements.txt ...'
